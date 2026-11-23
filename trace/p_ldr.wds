@@ -1,0 +1,2 @@
+.printf "SC|%x|%x|%y|%msu\n", @$tpid, @$tid, @rip, @r8
+gc

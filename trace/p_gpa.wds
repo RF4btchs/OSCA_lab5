@@ -1,0 +1,2 @@
+.printf "SC|%x|%x|%y|module=%p \"%ma\"\n", @$tpid, @$tid, @rip, @rcx, poi(@rdx+8)
+gc

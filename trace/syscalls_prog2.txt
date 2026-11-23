@@ -1,0 +1,50 @@
+﻿proc     PID    TID  call                             arguments
+prog2  11996  30496  NtMapViewOfSection               rcx=0000000000000014 rdx=ffffffffffffffff
+prog2  11996  30496  NtMapViewOfSection               rcx=0000000000000018 rdx=ffffffffffffffff
+prog2  11996  30496  NtMapViewOfSection               rcx=000000000000001c rdx=ffffffffffffffff
+prog2  11996  30496  NtMapViewOfSection               rcx=0000000000000020 rdx=ffffffffffffffff
+prog2  11996  30496  NtOpenFile                       \??\C:\Users\sokol\OneDrive\Рабочий стол\my_progrmms\оси 3 сем\lab5\
+prog2  11996  30496  LdrLoadDll                       KERNEL32.DLL
+prog2  11996  30496  NtMapViewOfSection               rcx=0000000000000064 rdx=ffffffffffffffff
+prog2  11996  30496  NtMapViewOfSection               rcx=0000000000000068 rdx=ffffffffffffffff
+prog2  11996  30496  NtCreateSection                  rcx=0000009f7d7fe2f8 rdx=00000000000f001f
+prog2  11996  30496  NtMapViewOfSection               rcx=0000000000000064 rdx=ffffffffffffffff
+prog2  11996  30496  LdrGetProcedureAddressForCaller  module=00007ffa48310000 "RtlDisownModuleHeapAllocation"
+prog2  11996  30496  LdrGetProcedureAddressForCaller  module=00007ffa47350000 "BaseThreadInitThunk"
+prog2  11996  30496  LdrGetProcedureAddressForCaller  module=00007ffa47350000 "TermsrvGetWindowsDirectoryW"
+prog2  11996  30496  LdrLoadDll                       KERNELBASE.dll
+prog2  11996  30496  LdrGetProcedureAddressForCaller  module=00007ffa45670000 "KernelbasePostInit"
+prog2  11996  30496  NtMapViewOfSection               rcx=00000000000000ac rdx=ffffffffffffffff
+prog2  11996  30496  LdrGetProcedureAddressForCaller  module=00007ffa48310000 "RtlQueryFeatureConfiguration"
+prog2  11996  30496  LdrLoadDll                       mathlib1.dll
+prog2  11996  30496  NtOpenFile                       \??\C:\Users\sokol\OneDrive\Рабочий стол\my_progrmms\оси 3 сем\lab5\bin\mathlib1.dll
+prog2  11996  30496  NtCreateSection                  rcx=0000009f7d7fe1f8 rdx=000000000000000d
+prog2  11996  30496  NtMapViewOfSection               rcx=0000000000000090 rdx=ffffffffffffffff
+prog2  11996  30496  LdrGetProcedureAddressForCaller  module=00007ffa0e5c0000 "PrimeCount"
+prog2  11996  30496  LdrGetProcedureAddressForCaller  module=00007ffa0e5c0000 "E"
+prog2  11996  30496  NtWriteFile                      rcx=0000000000000cc4 rdx=0000000000000000
+prog2  11996  30496  NtWriteFile                      rcx=0000000000000cc4 rdx=0000000000000000
+prog2  11996  30496  NtReadFile                       rcx=0000000000000284 rdx=0000000000000000
+prog2  11996  30496  NtWriteFile                      rcx=0000000000000cc4 rdx=0000000000000000
+prog2  11996  30496  NtWriteFile                      rcx=0000000000000cc4 rdx=0000000000000000
+prog2  11996  30496  NtWriteFile                      rcx=0000000000000cc4 rdx=0000000000000000
+prog2  11996  30496  NtWriteFile                      rcx=0000000000000cc4 rdx=0000000000000000
+prog2  11996  30496  LdrLoadDll                       mathlib2.dll
+prog2  11996  30496  NtOpenFile                       \??\C:\Users\sokol\OneDrive\Рабочий стол\my_progrmms\оси 3 сем\lab5\bin\mathlib2.dll
+prog2  11996  30496  NtCreateSection                  rcx=0000009f7d7fe1f8 rdx=000000000000000d
+prog2  11996  30496  NtMapViewOfSection               rcx=0000000000000090 rdx=ffffffffffffffff
+prog2  11996  30496  LdrGetProcedureAddressForCaller  module=00007ffa33fa0000 "PrimeCount"
+prog2  11996  30496  LdrGetProcedureAddressForCaller  module=00007ffa33fa0000 "E"
+prog2  11996  30496  LdrUnloadDll                     rcx=00007ffa0e5c0000 rdx=00007ffa33fa1550
+prog2  11996  30496  NtUnmapViewOfSection             rcx=ffffffffffffffff rdx=00007ffa0e5c0000
+prog2  11996  30496  NtWriteFile                      rcx=0000000000000cc4 rdx=0000000000000000
+prog2  11996  30496  NtWriteFile                      rcx=0000000000000cc4 rdx=0000000000000000
+prog2  11996  30496  NtWriteFile                      rcx=0000000000000cc4 rdx=0000000000000000
+prog2  11996  30496  NtWriteFile                      rcx=0000000000000cc4 rdx=0000000000000000
+prog2  11996  30496  NtWriteFile                      rcx=0000000000000cc4 rdx=0000000000000000
+prog2  11996  30496  NtWriteFile                      rcx=0000000000000cc4 rdx=0000000000000000
+prog2  11996  30496  NtReadFile                       rcx=0000000000000284 rdx=0000000000000000
+prog2  11996  30496  LdrUnloadDll                     rcx=00007ffa33fa0000 rdx=0000023d1b640000
+prog2  11996  30496  NtUnmapViewOfSection             rcx=ffffffffffffffff rdx=00007ffa33fa0000
+prog2  11996  30496  NtTerminateProcess               rcx=0000000000000000 rdx=0000000000000000
+prog2  11996  30496  NtTerminateProcess               rcx=ffffffffffffffff rdx=0000000000000000

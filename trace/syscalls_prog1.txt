@@ -1,0 +1,31 @@
+﻿proc     PID    TID  call                             arguments
+prog1  26336  24240  NtMapViewOfSection               rcx=0000000000000014 rdx=ffffffffffffffff
+prog1  26336  24240  NtMapViewOfSection               rcx=0000000000000018 rdx=ffffffffffffffff
+prog1  26336  24240  NtMapViewOfSection               rcx=000000000000001c rdx=ffffffffffffffff
+prog1  26336  24240  NtMapViewOfSection               rcx=0000000000000020 rdx=ffffffffffffffff
+prog1  26336  24240  NtOpenFile                       \??\C:\Users\sokol\OneDrive\Рабочий стол\my_progrmms\оси 3 сем\lab5\
+prog1  26336  24240  LdrLoadDll                       KERNEL32.DLL
+prog1  26336  24240  NtMapViewOfSection               rcx=0000000000000064 rdx=ffffffffffffffff
+prog1  26336  24240  NtMapViewOfSection               rcx=0000000000000068 rdx=ffffffffffffffff
+prog1  26336  24240  NtCreateSection                  rcx=00000045753fe018 rdx=00000000000f001f
+prog1  26336  24240  NtMapViewOfSection               rcx=0000000000000064 rdx=ffffffffffffffff
+prog1  26336  24240  LdrGetProcedureAddressForCaller  module=00007ffa48310000 "RtlDisownModuleHeapAllocation"
+prog1  26336  24240  LdrGetProcedureAddressForCaller  module=00007ffa47350000 "BaseThreadInitThunk"
+prog1  26336  24240  LdrGetProcedureAddressForCaller  module=00007ffa47350000 "TermsrvGetWindowsDirectoryW"
+prog1  26336  24240  LdrLoadDll                       KERNELBASE.dll
+prog1  26336  24240  LdrGetProcedureAddressForCaller  module=00007ffa45670000 "KernelbasePostInit"
+prog1  26336  24240  NtMapViewOfSection               rcx=00000000000000a8 rdx=ffffffffffffffff
+prog1  26336  24240  LdrGetProcedureAddressForCaller  module=00007ffa48310000 "RtlQueryFeatureConfiguration"
+prog1  26336  24240  NtOpenFile                       \??\C:\Users\sokol\OneDrive\Рабочий стол\my_progrmms\оси 3 сем\lab5\bin\mathlib1.dll
+prog1  26336  24240  NtCreateSection                  rcx=00000045753feac8 rdx=000000000000000d
+prog1  26336  24240  NtMapViewOfSection               rcx=00000000000000b0 rdx=ffffffffffffffff
+prog1  26336  24240  NtWriteFile                      rcx=0000000000000bf0 rdx=0000000000000000
+prog1  26336  24240  NtWriteFile                      rcx=0000000000000bf0 rdx=0000000000000000
+prog1  26336  24240  NtReadFile                       rcx=0000000000000284 rdx=0000000000000000
+prog1  26336  24240  NtWriteFile                      rcx=0000000000000bf0 rdx=0000000000000000
+prog1  26336  24240  NtWriteFile                      rcx=0000000000000bf0 rdx=0000000000000000
+prog1  26336  24240  NtWriteFile                      rcx=0000000000000bf0 rdx=0000000000000000
+prog1  26336  24240  NtWriteFile                      rcx=0000000000000bf0 rdx=0000000000000000
+prog1  26336  24240  NtReadFile                       rcx=0000000000000284 rdx=0000000000000000
+prog1  26336  24240  NtTerminateProcess               rcx=0000000000000000 rdx=0000000000000000
+prog1  26336  24240  NtTerminateProcess               rcx=ffffffffffffffff rdx=0000000000000000

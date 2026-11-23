@@ -1,0 +1,2 @@
+.printf "SC|%x|%x|%y|rcx=%p rdx=%p\n", @$tpid, @$tid, @rip, @rcx, @rdx
+gc
